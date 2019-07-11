@@ -1,7 +1,9 @@
-$font-stack:    Helvetica, sans-serif;
-$primary-color: #333;
+@import 'variables';
+@import 'header';
+@import 'content';
 
 body {
-  font: 100% $font-stack;
+  font: 100% $main-font;
   color: $primary-color;
 }
+

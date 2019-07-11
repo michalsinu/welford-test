@@ -1,0 +1,39 @@
+@import 'variables';
+
+.content {
+	color: #0df450;  
+	margin-top: 1.5%;
+	width: 84%;
+	text-align: center;
+	margin: 1.5% auto auto auto;
+}
+
+.jumbotron-typography {
+	background-color: #9ab4b3;
+	color: #FFFFFF;
+	text-align: center;
+	padding-top: 15%;
+	font-size: 1vw;
+}
+
+.jumbotron-typography-small-text {
+	font-family: $times-new-roman;
+	font-size: 1em;
+	font-style: italic;
+	margin-bottom: 2vw;
+}
+
+.jumbotron-typography-big-text {
+	border-bottom: 2px solid #FFFFFF;
+	width: 10%;
+	position: absolute;
+  	left: 45%;
+ 	margin-top: 2vw;
+}
+
+.jumbotron-typography-big-text-style {
+	font-family: arial;
+	font-size: 4em;
+	font-weight: lighter;
+	letter-spacing: 0.2em;
+}

@@ -1,0 +1,28 @@
+@font-face {
+  font-family: Traten;
+  src: url("../fonts/traten__.ttf"); }
+
+.header {
+  font: Traten;
+  border-bottom: 2px solid #e5e5e5;
+  border-width: 20%;
+  color: #000000;
+  margin-top: 1%;
+  padding-bottom: 1%;
+  letter-spacing: 0.2vw;
+  text-align: center; }
+
+.header-navigation {
+  margin-top: 2%;
+  font-size: 0.8em;
+  text-align: center;
+  font-weight: bold;
+  line-height: 1vw;
+  letter-spacing: 0.2vw; }
+  .header-navigation a {
+    color: #000000; }
+  .header-navigation a:hover {
+    color: #000000;
+    text-decoration: none;
+    border-bottom: 1px solid #000000;
+    padding-bottom: 5px; }
