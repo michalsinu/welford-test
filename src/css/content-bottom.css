@@ -1,0 +1,37 @@
+@font-face {
+  font-family: Traten;
+  src: url("../fonts/traten__.ttf"); }
+
+.content-bottom {
+  margin-top: 1.5%;
+  width: 84%;
+  text-align: center;
+  margin: 1.5% auto auto auto; }
+
+.content-bottom-heading {
+  letter-spacing: 0.2em;
+  font-weight: 500;
+  margin-top: 5%;
+  font-size: 1.2em;
+  margin-bottom: 1.25%; }
+
+.content-bottom-small-slanted-text {
+  letter-spacing: 0.2em;
+  font-weight: 500;
+  font-size: 0.9em;
+  font-family: "Times New Roman";
+  margin-bottom: 5%;
+  font-style: italic;
+  color: #a3a3a3; }
+
+.products {
+  padding: 0px;
+  border: 0px solid #000; }
+  .products img {
+    object-fit: cover;
+    object-position: center 55%;
+    padding-left: 0.80vw;
+    width: 100%;
+    height: 430px;
+    z-index: -1;
+    margin-bottom: 20%; }
