@@ -37,8 +37,53 @@ $spacing: 5%;
 		padding-left: 0.80vw;
 	 	width: 100%;
 	  	height: 430px;
-	  	z-index: -1;
 
 	  	margin-bottom: 20%;
   	}
+}
+
+.product-cards-content {
+	position: relative;
+	top: 95%;
+	margin-bottom: 30%;
+}
+
+.product-cards-name {
+	font-family: sans-serif;
+	font-weight: 600;
+	letter-spacing: 0.2vw;
+	padding-bottom: 5%;
+}
+
+.product-cards-price {
+	color: #a3a3a3; 
+	font-family: $tnr;
+	letter-spacing: 0.05vw;
+}
+
+.blue {
+	color: #99bcdf;
+}
+
+.crossed-out {
+	text-decoration: line-through;
+}
+
+.sale {
+	$circle-roudness: 100%;
+	$circle-dimensions: 50px;
+	text-align: center center;
+	top: -5%;
+	left: 50%;
+	position: absolute;
+	background-color: #000;
+	width: $circle-dimensions;
+    height: 50px;
+    -moz-border-radius: $circle-roudness; 
+    -webkit-border-radius: $circle-roudness; 
+    border-radius: $circle-roudness;
+	color: #FFF;
+	font-style: italic;
+	font-family: $tnr;
+	padding-top: 4.5%;
 }
