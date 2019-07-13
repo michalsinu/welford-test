@@ -12,15 +12,16 @@
   border-width: 20%;
   color: #000000;
   margin-top: 1%;
-  padding-bottom: 1%;
+  padding-bottom: 0.5rem;
   letter-spacing: 0.2vw;
-  text-align: center; }
+  text-align: center;
+  display: block; }
 
 .header-navigation {
   margin-top: 2%;
   font-size: 0.8em;
   text-align: center;
-  line-height: 1vw;
+  line-height: 1em;
   letter-spacing: 0.2vw; }
   .header-navigation a {
     color: #000000; }
@@ -29,6 +30,16 @@
     text-decoration: none;
     border-bottom: 1px solid #000000;
     padding-bottom: 5px; }
+
+.bar1, .bar2, .bar3 {
+  width: 20px;
+  height: 5px;
+  background-color: #333;
+  margin: 3px; }
+
+@media screen and (max-width: 1200px) {
+  .header-navigation {
+    display: none; } }
 
 @font-face {
   font-family: Traten;
@@ -41,18 +52,27 @@
   text-align: center;
   margin: 1.5% auto auto auto; }
 
+@media screen and (max-width: 1450px) {
+  .content .col-md-6 {
+    padding-left: 0px !important;
+    padding-right: 0px !important; } }
+
+@media screen and (max-width: 768px) {
+  .jumbotron-typography {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    height: 40em; }
+  .jumbotron-typography-small-text {
+    font-size: 2em; }
+  .jumbotron-typography-big-text-style {
+    font-size: 10rem; } }
+
 .jumbotron-typography {
   background-color: #9ab4b3;
   color: #FFFFFF;
   text-align: center;
-  padding-top: 10%;
+  padding-top: 10em;
   font-size: 1vw; }
-
-.jumbotron-typography-small-text {
-  font-family: "Times New Roman";
-  font-size: 1em;
-  font-style: italic;
-  margin-bottom: 2vw; }
 
 .jumbotron-typography-big-text {
   border-bottom: 2px solid #FFFFFF;
@@ -87,10 +107,10 @@
   left: 15px !important;
   display: block;
   position: absolute;
-  max-width: 90%;
-  max-height: 12em;
+  width: 90%;
+  height: 10em;
   z-index: 500;
-  margin-top: 53%;
+  margin-top: 18rem;
   margin-left: auto;
   margin-right: auto;
   padding: 2%; }
@@ -105,13 +125,25 @@
   font-family: arial;
   letter-spacing: 0.2em;
   font-size: 1.2em;
-  margin-top: 10%; }
+  margin-top: 2rem; }
 
 .image-cards-small-text {
   color: #a3a3a3;
   font-family: "Times New Roman";
-  margin-top: 10%;
+  margin-top: 1rem;
   letter-spacing: 0.15em; }
+
+@media screen and (max-width: 1200px) {
+  .image-cards img {
+    object-fit: cover;
+    object-position: -50% 25%;
+    padding-left: 0vw;
+    padding-bottom: 1em;
+    width: 100%;
+    height: 300px;
+    z-index: -1; }
+  .image-cards-text {
+    margin-top: 5%; } }
 
 @font-face {
   font-family: Traten;
@@ -148,18 +180,18 @@
     padding-left: 0.80vw;
     width: 100%;
     height: 430px;
-    margin-bottom: 20%; }
+    margin-bottom: 12rem; }
 
 .product-cards-content {
   position: relative;
-  top: 95%;
+  top: 30rem;
   margin-bottom: 30%; }
 
 .product-cards-name {
   font-family: sans-serif;
   font-weight: 600;
   letter-spacing: 0.2vw;
-  padding-bottom: 5%; }
+  padding-bottom: 2rem; }
 
 .product-cards-price {
   color: #a3a3a3;
@@ -187,6 +219,11 @@
   font-style: italic;
   font-family: "Times New Roman";
   padding-top: 4.5%; }
+
+@media screen and (max-width: 1200px) {
+  .sale {
+    left: 90%;
+    padding-top: 2%; } }
 
 @font-face {
   font-family: Traten;

@@ -38,13 +38,13 @@ $spacing: 5%;
 	 	width: 100%;
 	  	height: 430px;
 
-	  	margin-bottom: 20%;
+	  	margin-bottom: 12rem;
   	}
 }
 
 .product-cards-content {
 	position: relative;
-	top: 95%;
+	top: 30rem;
 	margin-bottom: 30%;
 }
 
@@ -52,7 +52,7 @@ $spacing: 5%;
 	font-family: sans-serif;
 	font-weight: 600;
 	letter-spacing: 0.2vw;
-	padding-bottom: 5%;
+	padding-bottom: 2rem;
 }
 
 .product-cards-price {
@@ -86,4 +86,15 @@ $spacing: 5%;
 	font-style: italic;
 	font-family: $tnr;
 	padding-top: 4.5%;
+}
+
+@media screen and (max-width: 1200px) {
+	.sale {
+		left: 90%;
+		padding-top: 2%;
+	}
+
+	.products {
+		
+	}
 }
