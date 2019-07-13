@@ -1,4 +1,4 @@
-Test for Welford.
+live server: https://michalsinu.github.io/welford-test/src/
 
 ## Guidance
 - Build the design in HTML & CSS
@@ -11,3 +11,5 @@ Test for Welford.
 - If Sass is used
 - If a build tool is used (e.g gulp)
 
+## Design
+<img src="src/assets/Design.png" />
